@@ -7,8 +7,4 @@ Just for jailbroken device
 
 You should signed exective file with the Entitlements like:
 
-	ldid -Entitlements.plist Application.app
-
-	OR
-
 	codesign -fs "iPhone Developer" --entitlements Entitlements.plist - Application.app
