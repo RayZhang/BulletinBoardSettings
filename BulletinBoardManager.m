@@ -21,7 +21,7 @@ static BulletinBoardManager *manager = nil;
 + (id)sharedManager {
     @synchronized(self) {
         if (manager == nil) {
-            manager = [[super alloc] init];
+            manager = [[self alloc] init];
         }
     }
     return manager;
